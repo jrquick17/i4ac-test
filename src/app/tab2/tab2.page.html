@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Tab Two
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form (ngSubmit)="submit()"
+        novalidate>
+    <div class="ion-form-group">
+      <ion-auto-complete [dataProvider]="completeTestService"></ion-auto-complete>
+    </div>
+
+    <ion-button type="submit">
+      Add Country
+    </ion-button>
+  </form>
+</ion-content>
