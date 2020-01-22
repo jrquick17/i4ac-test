@@ -1,5 +1,7 @@
 {
   "name": "i4ac-test",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
