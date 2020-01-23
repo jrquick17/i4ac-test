@@ -11,8 +11,8 @@ import {AutoCompleteModule} from 'ionic4-auto-complete';
     IonicModule,
     CommonModule,
     FormsModule,
-    RouterModule.forChild([{path: '', component: Tab2Page}]),
-    AutoCompleteModule
+    AutoCompleteModule,
+    RouterModule.forChild([{path: '', component: Tab2Page}])
   ],
   declarations: [Tab2Page]
 })

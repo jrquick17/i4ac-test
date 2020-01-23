@@ -24,6 +24,6 @@ export class Tab2Page {
   }
 
   submit(): void {
-    let country = this.myForm.value.country
+    console.log(this.myForm.value.country);
   }
 }
