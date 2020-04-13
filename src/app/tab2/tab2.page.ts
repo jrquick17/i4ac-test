@@ -9,7 +9,7 @@ import {FormControl, FormGroup, Validators} from '@angular/forms';
   styleUrls: ['tab2.page.scss']
 })
 export class Tab2Page {
-  myForm: FormGroup
+  myForm:FormGroup;
 
   constructor(public navCtrl: NavController, public completeTestService: SimpleService) {
 
