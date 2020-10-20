@@ -26,7 +26,7 @@
     "cordova-android": "^8.1.0",
     "cordova-ios": "^5.1.1",
     "core-js": "^2.6.11",
-    "ionic4-auto-complete": "^1.10.2",
+    "ionic4-auto-complete": "2.8.2",
     "rxjs": "^6.6.3",
     "tslib": "^1.14.1",
     "zone.js": "^0.8.29"
