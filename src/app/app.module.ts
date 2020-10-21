@@ -6,7 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import {AutoCompleteModule} from 'ionic4-auto-complete';
+// import {AutoCompleteModule} from 'ionic4-auto-complete';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,7 @@ import {AutoCompleteModule} from 'ionic4-auto-complete';
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
-    AutoCompleteModule
+    // AutoCompleteModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [

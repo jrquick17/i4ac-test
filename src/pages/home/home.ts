@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {NavController} from 'ionic-angular';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
-import {SimpleService} from '../../app/simple-service';
+// import {SimpleService} from '../../app/simple-service';
 
 @Component({
   selector: 'page-home',
@@ -12,7 +12,7 @@ export class HomePage {
 
   constructor(
     public navCtrl:NavController,
-    public completeTestService:SimpleService
+    // public completeTestService:SimpleService
   ) {
 
   }

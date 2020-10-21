@@ -4,16 +4,17 @@ import {Observable} from 'rxjs';
 import {map} from 'rxjs/operators';
 import {of} from 'rxjs/observable/of';
 
-import {AutoCompleteService} from 'ionic4-auto-complete';
-import {HttpClient} from '@angular/common/http';
+// import {AutoCompleteService} from 'ionic4-auto-complete';
+import {Http} from '@angular/http';
 
 @Injectable()
-export class SimpleService implements AutoCompleteService {
+export class SimpleService {
+// export class SimpleService implements AutoCompleteService {
   labelAttribute = 'name';
 
   private countries:any[] = [];
 
-  constructor(private http:HttpClient) {
+  constructor(private http:Http) {
 
   }
 
