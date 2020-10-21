@@ -1,7 +1,8 @@
 import {Injectable} from '@angular/core';
 
+import {Observable} from 'rxjs';
 import {map} from 'rxjs/operators';
-import {Observable, of} from 'rxjs';
+import {of} from 'rxjs/observable/of';
 
 import {AutoCompleteService} from 'ionic4-auto-complete';
 import {HttpClient} from '@angular/common/http';
