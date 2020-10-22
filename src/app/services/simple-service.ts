@@ -5,7 +5,7 @@ import {map} from 'rxjs/operators';
 import {of} from 'rxjs/observable/of';
 
 // import {AutoCompleteService} from 'ionic4-auto-complete';
-import {HttpClient} from '@angular/common/http';
+import {Http} from '@angular/http';
 
 @Injectable()
 export class SimpleService {
@@ -14,7 +14,7 @@ export class SimpleService {
 
   private countries:any[] = [];
 
-  constructor(private http:HttpClient) {
+  constructor(private http:Http) {
 
   }
 
