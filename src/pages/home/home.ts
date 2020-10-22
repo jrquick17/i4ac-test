@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
 import {NavController} from 'ionic-angular';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
+
 import {SimpleService} from '../../app/simple-service';
 
 @Component({
