@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {NavController} from 'ionic-angular';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
-// import {SimpleService} from '../../app/simple-service';
+// import {SimpleService} from '../../app/services/simple-service';
 
 @Component({
   selector: 'page-home',
