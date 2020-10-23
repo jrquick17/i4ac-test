@@ -1,10 +1,10 @@
 import {Injectable} from '@angular/core';
+import {HttpClient} from '@angular/common/http';
 
-import {map} from 'rxjs/operators';
 import {Observable, of} from 'rxjs';
+import {map} from 'rxjs/operators';
 
 import {AutoCompleteService} from 'ionic4-auto-complete';
-import {HttpClient} from '@angular/common/http';
 
 @Injectable()
 export class SimpleService implements AutoCompleteService {

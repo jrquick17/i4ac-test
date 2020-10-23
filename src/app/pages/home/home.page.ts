@@ -1,17 +1,21 @@
 import { Component } from '@angular/core';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
+
 import {NavController} from '@ionic/angular';
-import {SimpleService} from '../simple-service';
+
+import {SimpleService} from '../../services/simple-service';
 
 @Component({
-  selector: 'app-tab3',
-  templateUrl: 'tab3.page.html',
-  styleUrls: ['tab3.page.scss']
+  selector: 'app-tab1',
+  templateUrl: 'home.page.html',
+  styleUrls: ['home.page.scss']
 })
-export class Tab3Page {
+export class HomePage {
   myForm:FormGroup;
 
-  constructor(public navCtrl: NavController, public completeTestService: SimpleService) {
+  constructor(
+    public completeTestService: SimpleService
+  ) {
 
   }
 
